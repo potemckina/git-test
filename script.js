@@ -98,3 +98,87 @@ if (name) {
 } else {
   console.log(`Hello, Quest`);
 }
+
+//homework 5 example 1
+let asdf = 0;
+if (asdf > 0) {
+  console.log(`число положительное`);
+} else if (asdf < 0) {
+  console.log(`число отрицательное`);
+} else {
+  console.log(`ноль`);
+}
+
+//homework 5 example 2
+const rost = Number(prompt("укажите ваш рост, см"));
+const ves = Number(prompt("укажите ваш вес, кг"));
+alert(`ваш имт ` + ((rost / ves) * 10));
+
+//homework 5 example 3
+let mesyaz = 13;
+let mesyazName;
+switch (mesyaz) {
+  case 1:
+    mesyazName = 'january';
+    break;
+  case 2:
+    mesyazName = 'february';
+    break;
+  case 3:
+    mesyazName = 'march';
+    break;
+  case 4:
+    mesyazName = 'april';
+    break;
+  case 5:
+    mesyazName = 'may';
+    break;
+  case 6:
+    mesyazName = 'june';
+    break;
+  case 7:
+    mesyazName = 'jule';
+    break;
+  case 8:
+    mesyazName = 'august';
+    break;
+  case 9:
+    mesyazName = 'september';
+    break;
+  case 10:
+    mesyazName = 'october';
+    break;
+  case 11:
+    mesyazName = 'november';
+    break;
+  case 12:
+    mesyazName = 'december';
+    break;
+  default:
+    mesyazName = 'такого месяца нет';
+}
+console.log(mesyazName);
+
+//homework 5 example 4
+let candy = Number(prompt('выберите число от 1 до 5 для выбора подарка'));
+let candyGift;
+switch (candy) {
+  case 1:
+    candyGift = 'kitkat';
+    break;
+  case 2:
+    candyGift = 'mars';
+    break;
+  case 3:
+    candyGift = 'snickers';
+    break;
+  case 4:
+    candyGift = 'picnic';
+    break;
+  case 5:
+    candyGift = 'milkiway';
+    break;
+  default:
+    candyGift = 'вы ввели число вне диапозона'
+};
+console.log(candyGift);
