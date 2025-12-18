@@ -1,4 +1,4 @@
-alert('привет из внешнего файла!')
+// alert('привет из внешнего файла!')
 
 function changeContent() {
     document.getElementById("title").innerHTML = "hello javascript!";
@@ -73,3 +73,28 @@ let today = month;
 console.log(today);
 // здесь уже подключаемся не по значению а по ссылке, идем туда же к значению month, только тепеерь там не какое-то конкретное значение, а какое-то действие. 
 // если совсем простыми словами. то значение мы можем взять у примитивных, а по ссылке через сложные типы данных
+
+//homework 4 example 1
+let twotwo = Math.round(2 * 2 + 2);
+console.log(twotwo);
+
+let sincos = Math.round((Math.sin(54) * (Math.cos(60))) ** 2);
+console.log(sincos);
+
+let koren = Math.round((16 * Math.sqrt(13.2*71.9)) / (2.4 / Math.pow(7,4))) + (3 ** Math.sqrt(49)) ** (Math.pow(2, 7));
+console.log(koren);
+
+//homework 4 example 2
+let table = 3;
+let paper = 16;
+console.log(table % 2 === 0);
+console.log(paper % 2 === 0);
+
+//homework 4 example 3
+let name = 'nina';
+if (name) {
+    console.log(`Hello,` + name);
+} else {
+    console.log(`Hello, Quest`);
+}
+
