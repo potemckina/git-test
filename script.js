@@ -209,3 +209,33 @@ console.log(i);
 //   }
 // } 
 
+//homework 7 example 1
+let str = "JavaScript is fun!";
+console.log(str.includes("fun")); //true
+
+//homework 7 example 2
+let tryt = 124;
+if (tryt == 15) {
+  console.log(tryt++)
+} else {
+  console.log(tryt)
+};
+
+//homework 7 example 3
+let firstName = "Nina";
+let lastName = "Potemckina";
+let occupation = "Frontend developer";
+let result2 = `Hello, my name ${firstName} ${lastName}. I am is ${occupation}.`;
+console.log(result2);
+
+//homework 7 example 4
+let qwer = null;
+let rweq;
+console.log(qwer === rweq); //false потому что сравниваются еще и типы переменных а null - object
+console.log(qwer == rweq); //true сравниваются только значения в переменных и там и там их нет
+
+//homework 7 example 5
+let cifra = 1;
+let stroka = "1";
+console.log(cifra + stroka); //выведет 11 так как при сложении он тупо присоединяет значения друг к другу и приводит к строке 
+
