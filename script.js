@@ -112,73 +112,100 @@ if (asdf > 0) {
 //homework 5 example 2
 const rost = Number(prompt("укажите ваш рост, см"));
 const ves = Number(prompt("укажите ваш вес, кг"));
-alert(`ваш имт ` + ((rost / ves) * 10));
+alert(`ваш имт ` + (rost / ves) * 10);
 
 //homework 5 example 3
 let mesyaz = 13;
 let mesyazName;
 switch (mesyaz) {
   case 1:
-    mesyazName = 'january';
+    mesyazName = "january";
     break;
   case 2:
-    mesyazName = 'february';
+    mesyazName = "february";
     break;
   case 3:
-    mesyazName = 'march';
+    mesyazName = "march";
     break;
   case 4:
-    mesyazName = 'april';
+    mesyazName = "april";
     break;
   case 5:
-    mesyazName = 'may';
+    mesyazName = "may";
     break;
   case 6:
-    mesyazName = 'june';
+    mesyazName = "june";
     break;
   case 7:
-    mesyazName = 'jule';
+    mesyazName = "jule";
     break;
   case 8:
-    mesyazName = 'august';
+    mesyazName = "august";
     break;
   case 9:
-    mesyazName = 'september';
+    mesyazName = "september";
     break;
   case 10:
-    mesyazName = 'october';
+    mesyazName = "october";
     break;
   case 11:
-    mesyazName = 'november';
+    mesyazName = "november";
     break;
   case 12:
-    mesyazName = 'december';
+    mesyazName = "december";
     break;
   default:
-    mesyazName = 'такого месяца нет';
+    mesyazName = "такого месяца нет";
 }
 console.log(mesyazName);
 
 //homework 5 example 4
-let candy = Number(prompt('выберите число от 1 до 5 для выбора подарка'));
+let candy = Number(prompt("выберите число от 1 до 5 для выбора подарка"));
 let candyGift;
 switch (candy) {
   case 1:
-    candyGift = 'kitkat';
+    candyGift = "kitkat";
     break;
   case 2:
-    candyGift = 'mars';
+    candyGift = "mars";
     break;
   case 3:
-    candyGift = 'snickers';
+    candyGift = "snickers";
     break;
   case 4:
-    candyGift = 'picnic';
+    candyGift = "picnic";
     break;
   case 5:
-    candyGift = 'milkiway';
+    candyGift = "milkiway";
     break;
   default:
-    candyGift = 'вы ввели число вне диапозона'
-};
+    candyGift = "вы ввели число вне диапозона";
+}
 console.log(candyGift);
+
+
+//homework 6 example 1
+for (let i = 1; i < 11; i++) {
+  console.log(i);
+}
+
+//homework 6 example 2
+let sum = 0;
+let i = 0;
+while (i < 100) {
+  sum += i++;
+}
+console.log(i);
+
+//homework 6 example 3  (НЕ РЕШИЛА)
+// let app = 1;
+// while (app <= 100) {
+//   if (app % 1 = 0) {
+//     console.log(app)
+//   } else if (app % app = 0) {
+//     console.log(app)
+//   } else {
+//     break
+//   }
+// } 
+
